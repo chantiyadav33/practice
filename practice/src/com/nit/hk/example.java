@@ -22,5 +22,12 @@ for(int i=100; i>=1;i--) {
 		 System.out.println(c1);
 		 c1--;
 	 }
+	 //print even numbers 
+	 for(int i =1; i<=100;i++) {
+		 if(i%2==0) {
+System.out.println(i);			 
+		 }
+		 
+	 }
 }
 }
