@@ -1,5 +1,7 @@
 package com.nit.hk;
 
+import java.util.Scanner;
+
 public class example {
 public static void main(String[] args) {
 	// printing 1 to 100 numbers in ascending order
@@ -27,7 +29,15 @@ for(int i=100; i>=1;i--) {
 		 if(i%2==0) {
 System.out.println(i);			 
 		 }
-		 
 	 }
+Scanner scn =new Scanner(System.in);
+System.out.println(" enter the number::");
+int number = scn.nextInt();
+ long  factoral =1;
+ for(int i= 1; i<=number;i++) {
+	 factoral*=i;
+ }
+ System.out.println(factoral);
+	 
 }
 }
